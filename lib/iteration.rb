@@ -10,11 +10,7 @@ def join_ingredients(src)
   row_index = 0
   listoffoods = []
 while row_index < src.count do
-  element_index = 0
-  while element_index < src[row_index].count do
-    listoffoods.push("I love #{src[row_index][element_index]}")
-    element_index += 1
-  end
+  listoffoods.push("I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza")
   row_index += 1
 end #=> nil
   listoffoods
