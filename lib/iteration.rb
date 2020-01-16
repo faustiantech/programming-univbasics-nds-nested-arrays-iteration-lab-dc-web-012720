@@ -25,6 +25,8 @@ def find_greater_pair(src)
     if src[i][0] > src[i][1]
       result.push(src[i][0])
     else result.push(src[i][1])
+    end
+    result
 end
 
 def total_even_pairs(src)
